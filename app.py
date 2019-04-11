@@ -5,8 +5,6 @@ from rq import Queue
 from rq.job import Job
 from worker import conn
 
-#from models import Result
-from models import *
 from foo_job import job_test
 
 import os
